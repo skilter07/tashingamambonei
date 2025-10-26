@@ -17,11 +17,11 @@ def number_guessing_game():
             
             # Check guess
             if guess < secret_number:
-                print("📈 Too low! Try higher.")
+                print(" Too low! Try higher.")
             elif guess > secret_number:
-                print("📉 Too high! Try lower.")
+                print(" Too high! Try lower.")
             else:
-                print(f"🎉 Congratulations! You guessed it in {attempts} attempts!")
+                print(f" Congratulations! You guessed it in {attempts} attempts!")
                 break
             
             # Show remaining attempts
